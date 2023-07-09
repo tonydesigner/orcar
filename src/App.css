@@ -1,0 +1,28 @@
+*{margin:0; padding:0;box-sizing: border-box}
+
+.center{display: flex;justify-content: center;align-items: center;}
+.margin{display: flex;justify-content: space-around;align-items: center;}
+.space{display: flex;justify-content: space-between;align-items: center;}
+
+.brd{border: 1px solid;}
+
+form{width: 750px; height: auto; margin: 2em auto; padding: 1em;}
+input{border: 0; border-bottom: 2px solid; margin: 1em 0;padding:.6em }
+.ver, .dia, table, .total{display: none;}
+input[type=date]{border-bottom:0;display:none;}
+
+.ver{font-weight: bold; font-size: 18pt;height:100%; font-style: italic; border-bottom: 1px solid #666;margin: 1em 0}
+.ver span{text-align:right;font-size: 12pt; display:block; height: 100%; }
+.campos{ text-align: center}
+.dado table td{width: 350px; text-align:left; padding: .2em; color:#666;}
+.desc, .desc2, .desc3, .desc4{width: 50%;}
+.quantidade, .quantidade2,.quantidade3,.quantidade4, .val, .val2, .val3, .val4{width:25%;}
+
+.total table td{width: 350px;text-align:right;}
+.dados{border-bottom: 2px solid #ccc;margin: 1em 0;}
+.dados img{width: 150px;}
+
+
+
+
+
